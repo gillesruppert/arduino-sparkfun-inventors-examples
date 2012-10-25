@@ -19,8 +19,8 @@ board.on("ready", function() {
   }).bind(this);
 
   this.loop(2000, function() {
-    //oneAfterAnother();
-    oneAtATime()
+    oneAfterAnother();
+    //oneAtATime()
   });
 });
 
