@@ -1,0 +1,11 @@
+{
+  "name": "arduino-sparkfun-inventors-examples",
+  "version": "0.0.0",
+  "description": "The sparkfun inventors kit examples with Johnny five",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Gilles Ruppert <gilles@madeofbytes.com>",
+  "license": "BSD"
+}
