@@ -24,12 +24,11 @@ board.on("ready", function() {
   var counter = 0;
   var t;
 
-  (function looper() {
+  this.loop(100, function() {
+    if (counter >= 256) counter = 0;
     updateLeds(counter);
     counter++;
-    t = setTimeout(looper, 100);
-    if (counter === 256) clearTimeout(t);
-  }());
+  });
 });
 
 var updateLeds = function updateLeds (value) {
